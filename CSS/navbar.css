@@ -1,0 +1,73 @@
+*{
+    font-family: 'Martel Sans', sans-serif;
+}
+.Header{
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+}
+
+.leftLogo{
+    margin-left: 25px;
+    display: flex;    
+    align-items: center;
+}
+
+.rightSignIn{
+    width: 50%;
+    margin-left: 67%; 
+    display: flex;
+    justify-content: start;
+}
+.ForLang{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    cursor:context-menu;
+    border-radius: 5px;
+    color: white;
+    padding: 3px 1px;
+    /* padding: 4px 8px; */
+}
+#dropdownlist{
+    font-size: medium;
+    background: none;
+    appearance: none;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.rightSignIn :nth-child(2){
+    color: white;
+    background: red;
+    text-decoration: none;
+    padding: 4px 14px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+}
+
+.rightSignIn :nth-child(2):hover{
+    cursor: pointer;
+    background-color: rgb(194, 17, 17);
+}
+
+@media only screen and (max-width: 720px) {
+    .rightSignIn{
+        margin-left: 80%;
+    }
+
+    #rightSignIn2ndChild{
+    font-size: 14px;
+   }
+
+}
+
+
+

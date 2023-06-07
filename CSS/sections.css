@@ -1,0 +1,115 @@
+.sections{
+    background: linear-gradient(146.51deg, rgba(0, 8, 29, 0.75) 0%, rgba(53, 13, 49, 0.6) 80.34%, rgba(132, 5, 25, 0.6) 110.79%);
+    /* box-sizing: border-box; */
+    border-radius: 16px;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.container-1{
+    position: absolute;
+    border-bottom: 8px solid rgb(255, 255, 2555, 0.1);
+    width: 80%;
+}
+#sec1{
+    margin-left: 10%;
+    padding-top: 40em;
+}
+.text-1
+{
+    color: white;
+    width: 50%;
+    float: left;
+    margin-top: 10%;
+    font-family: sans-serif;
+}
+h1{
+    /* if screen is laptop or computer
+    font-size: 3rem;
+    font-weight: 900px */
+    font-size: 3rem;
+    font-weight: 900;
+    /* normally font:size: 48px */
+}
+p{
+    padding-top: 5%;
+    font-size: 20px;
+}
+
+.image-1{
+    width: 50%;
+    float: right;
+}
+.container-2{
+    position: absolute;
+    border-bottom: 8px solid rgb(255, 255, 2555, 0.1);
+    width: 80%;
+}
+#sec2{
+    margin-left: 10%;
+    padding-top: 30em;
+}
+.text-2
+{
+    width: 50%;
+    float: right;
+    color: white;
+    margin-top: 10%;
+    font-family: sans-serif;
+}
+.image-2{
+    width: 50%;
+    float: left;
+}
+.container-3{
+    position: absolute;
+    border-bottom: 8px solid rgb(255, 255, 2555, 0.1);
+    width: 80%;
+}
+#sec3{
+    margin-left: 10%;
+    padding-top: 30em;
+}
+.text-3
+{
+    width: 50%;
+    float: left;
+    color: white;
+    margin-top: 10%;
+    font-family: sans-serif;
+}
+.image-3{
+    width: 50%;
+    float: right;
+}
+
+#sec4{
+    /* margin-left: 10%; */
+    padding-top: 30em;
+    
+}
+.container-4{
+    position: absolute;
+    border-bottom: 8px solid rgb(255, 255, 2555, 0.1);
+    width: 94%;
+    background: linear-gradient(146.51deg, rgba(0, 8, 29, 0.75) 0%, rgba(53, 13, 49, 0.6) 80.34%, rgba(132, 5, 25, 0.6) 110.79%);
+    border-radius: 16px;
+}
+.text-4{
+    width: 50%;
+    float: right;
+    color: white;
+    margin-top: 10%;
+    font-family: sans-serif;
+}
+
+.image-4{
+    width: 50%;
+    float: left;
+}
+
+@media screen and (max-width: 720px) {
+    .image-1{
+        width: 25%;
+    }
+}

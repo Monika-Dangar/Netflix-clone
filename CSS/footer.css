@@ -1,0 +1,67 @@
+footer{
+    font-family: sans-serif;
+    color: rgb(143, 139, 139);
+    font-size: 15px;
+    font-weight: 200;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    /* width: 82%; */
+}
+
+.foot:hover{
+    cursor: pointer;
+}
+
+.foot span{
+    display: block;
+    padding-bottom: 10px;
+    margin-left: 0%;
+}
+
+.call {
+    display: flex;
+    font-weight: 700;
+    margin-top: 15%;
+    padding-bottom: 3%;
+}
+
+.call u:hover{
+    cursor: pointer;
+}
+.ForLanguage{
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid gray; */
+    cursor:context-menu;
+    border-radius: 5px;
+    padding: 3px 1px;
+    /* margin-left: 10%; */
+    margin-top: 2%;
+    color: white;
+    background-color: rgb(55, 52, 52);
+}
+#dropdown{
+    /* margin-left: 10%; */
+    margin-top: 2%;
+    appearance: none;
+    font-size: medium;
+    background: none;
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    /* padding-left: 2px; */
+    /* padding-right: 2px; */
+}
+#email2{
+    margin-left: 0%;
+}
+#LastLine{
+    display: block;
+    margin-top: 3%;
+    margin-bottom: 8%;
+}
+

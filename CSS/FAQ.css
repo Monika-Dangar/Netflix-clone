@@ -1,0 +1,107 @@
+.FAQ{
+    position: absolute;
+    margin-top: 35em;
+    margin-left: 10%;
+    width: 80%;
+}
+.FAQ h2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.Qs li{
+    list-style: none;
+    width: 100%;
+}
+
+.Qs label{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 25px; 
+    margin: 0.5%;
+    width: 95%;
+    padding: 2%;
+    font-family: 'Martel Sans', sans-serif;
+    background-color:  rgb(19, 33, 68, 1);
+    border-color: transparent;
+    cursor: pointer;
+    position: relative;
+}
+
+label::after{
+    content: "+";
+    font-size: 34px;
+    right: 20px;
+    position: absolute;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.Qs .content{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    width: 96%;
+    padding: 0 20px;
+    font-family: 'Martel Sans', sans-serif;
+    background-color:  rgb(19, 33, 68, 1);
+    border-color: transparent;
+    overflow: hidden;
+    max-height: 0px;
+    transition: max-height 0.5s, padding 0.5s;
+
+}
+
+.Qs input[type="radio"]:checked  + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+h5{
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 1.5em;
+    color: white;
+    font-family: sans-serif;
+}
+
+.email2{
+    display: flex;
+    justify-content:start;
+}
+.email2 input[type=email]{
+    margin-top: 1em;
+    width: 35%;
+    padding: 24px 16px 8px;
+    font-size: large;
+    color: transparent;
+    background: transparent;
+    border-radius:6px ;
+    box-sizing: border-box;
+    outline: none;
+}
+#email2BTN{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1%;
+    width: 15%;
+    background: rgb(229, 9, 20);
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 6px;
+    margin-top: 2%;
+    border: none;
+}
+#email2BTN:hover{
+    background-color: rgb(194, 17, 17);
+}
+
+
+
